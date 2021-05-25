@@ -6,7 +6,7 @@
     "@babel/core": "^7.6.0",
     "babel-eslint": "10.0.2",
     "bootstrap": "^4.3.1",
-    "browserslist": "^4.7.0",
+    "browserslist": "^4.16.5",
     "esformatter": "^0.10.0",
     "hookrouter": "^1.2.3",
     "react": "16.8.0",
