@@ -2069,21 +2069,15 @@ browserslist@4.6.6:
     electron-to-chromium "^1.3.191"
     node-releases "^1.1.25"
 
-browserslist@^4.0.0:
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.4.1.tgz#42e828954b6b29a7a53e352277be429478a69062"
+browserslist@^4.0.0, browserslist@^4.1.1, browserslist@^4.16.5, browserslist@^4.6.0, browserslist@^4.6.3, browserslist@^4.6.4, browserslist@^4.6.6:
+  version "4.16.5"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.5.tgz#952825440bca8913c62d0021334cbe928ef062ae"
   dependencies:
-    caniuse-lite "^1.0.30000929"
-    electron-to-chromium "^1.3.103"
-    node-releases "^1.1.3"
-
-browserslist@^4.1.1, browserslist@^4.6.0, browserslist@^4.6.3, browserslist@^4.6.4, browserslist@^4.6.6, browserslist@^4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.7.0.tgz#9ee89225ffc07db03409f2fee524dc8227458a17"
-  dependencies:
-    caniuse-lite "^1.0.30000989"
-    electron-to-chromium "^1.3.247"
-    node-releases "^1.1.29"
+    caniuse-lite "^1.0.30001214"
+    colorette "^1.2.2"
+    electron-to-chromium "^1.3.719"
+    escalade "^3.1.1"
+    node-releases "^1.1.71"
 
 bser@^2.0.0:
   version "2.0.0"
@@ -2205,13 +2199,9 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000929:
-  version "1.0.30000936"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000936.tgz#5d33b118763988bf721b9b8ad436d0400e4a116b"
-
-caniuse-lite@^1.0.30000980, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30000984, caniuse-lite@^1.0.30000989:
-  version "1.0.30000989"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000989.tgz#b9193e293ccf7e4426c5245134b8f2a56c0ac4b9"
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000980, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30000984, caniuse-lite@^1.0.30001214:
+  version "1.0.30001228"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001228.tgz#bfdc5942cd3326fa51ee0b42fbef4da9d492a7fa"
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -2401,6 +2391,10 @@ color@^3.0.0:
   dependencies:
     color-convert "^1.9.1"
     color-string "^1.5.2"
+
+colorette@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
 
 colors@~1.1.2:
   version "1.1.2"
@@ -3235,13 +3229,9 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
-electron-to-chromium@^1.3.103:
-  version "1.3.113"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.113.tgz#b1ccf619df7295aea17bc6951dc689632629e4a9"
-
-electron-to-chromium@^1.3.191, electron-to-chromium@^1.3.247:
-  version "1.3.252"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.252.tgz#5b6261965b564a0f4df0f1c86246487897017f52"
+electron-to-chromium@^1.3.191, electron-to-chromium@^1.3.719:
+  version "1.3.738"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.738.tgz#aec24b091c82acbfabbdcce08076a703941d17ca"
 
 elliptic@^6.0.0:
   version "6.4.1"
@@ -3345,6 +3335,10 @@ es6-symbol@^3.1.1, es6-symbol@~3.1.1:
     d "^1.0.1"
     es5-ext "^0.10.51"
 
+escalade@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
+
 escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
@@ -3444,6 +3438,12 @@ eslint-config-google@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/eslint-config-google/-/eslint-config-google-0.14.0.tgz#4f5f8759ba6e11b424294a219dbfa18c508bcc1a"
 
+eslint-config-prettier@^6.3.0:
+  version "6.15.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.15.0.tgz#7f93f6cb7d45a92f1537a70ecc06366e1ac6fed9"
+  dependencies:
+    get-stdin "^6.0.0"
+
 eslint-config-react-app@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/eslint-config-react-app/-/eslint-config-react-app-5.0.1.tgz#5f3d666ba3ee3cb384eb943e260e868f6c72251b"
@@ -3509,6 +3509,12 @@ eslint-plugin-jsx-a11y@6.2.3:
     emoji-regex "^7.0.2"
     has "^1.0.3"
     jsx-ast-utils "^2.2.1"
+
+eslint-plugin-prettier@^3.1.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.4.0.tgz#cdbad3bf1dbd2b177e9825737fe63b476a08f0c7"
+  dependencies:
+    prettier-linter-helpers "^1.0.0"
 
 eslint-plugin-react-hooks@1.7.0, eslint-plugin-react-hooks@^1.6.1:
   version "1.7.0"
@@ -3855,6 +3861,10 @@ fast-deep-equal@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
 
+fast-diff@^1.1.2:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
+
 fast-glob@^2.0.2:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-2.2.6.tgz#a5d5b697ec8deda468d85a74035290a025a95295"
@@ -4162,6 +4172,10 @@ get-caller-file@^2.0.1:
 get-own-enumerable-property-symbols@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-3.0.0.tgz#b877b49a5c16aefac3655f2ed2ea5b684df8d203"
+
+get-stdin@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-6.0.0.tgz#9e09bf712b360ab9225e812048f71fde9c89657b"
 
 get-stream@^4.0.0:
   version "4.1.0"
@@ -6152,17 +6166,9 @@ node-pre-gyp@^0.10.0:
     semver "^5.3.0"
     tar "^4"
 
-node-releases@^1.1.25, node-releases@^1.1.29:
-  version "1.1.29"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.29.tgz#86a57c6587a30ecd6726449e5d293466b0a0bb86"
-  dependencies:
-    semver "^5.3.0"
-
-node-releases@^1.1.3:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.7.tgz#b09a10394d0ed8f7778f72bb861dde68b146303b"
-  dependencies:
-    semver "^5.3.0"
+node-releases@^1.1.25, node-releases@^1.1.71:
+  version "1.1.72"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.72.tgz#14802ab6b1039a79a0c7d662b610a5bbd76eacbe"
 
 nopt@^4.0.1:
   version "4.0.1"
@@ -7313,6 +7319,12 @@ postcss@^7.0.17:
 prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
+
+prettier-linter-helpers@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/prettier-linter-helpers/-/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"
+  dependencies:
+    fast-diff "^1.1.2"
 
 pretty-bytes@^5.1.0:
   version "5.3.0"
